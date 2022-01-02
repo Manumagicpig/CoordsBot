@@ -145,7 +145,7 @@ def getPlanet(galaxy: int, system: int, planet: int, moon: int = None):
 
 # Bot config
 token = os.getenv('DISCORD_TOKEN')
-bot = commands.Bot(command_prefix='$', case_insensitive=True)
+bot = commands.Bot(command_prefix='%', case_insensitive=True)
 bot.load_extension("cogs.error_handler")
 
 
